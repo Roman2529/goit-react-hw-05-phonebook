@@ -1,0 +1,27 @@
+.contactList {
+  padding: 5px 0px;
+  font-size: 20px;
+  width: 500px;
+}
+
+.enter {
+  opacity: 0;
+  transform: translateX(-150%);
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms linear;
+}
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateX(-150%);
+  transition: all 250ms linear;
+}

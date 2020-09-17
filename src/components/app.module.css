@@ -1,0 +1,9 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  padding: 0 514px;
+}
+.title {
+  font-size: 28px;
+  color: rgb(19, 76, 182);
+}

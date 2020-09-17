@@ -1,0 +1,35 @@
+.main-title-appear {
+  transform: translateX(-60%);
+}
+
+.main-title-appear-active {
+  transform: translateX(0);
+  transition: transform 500ms;
+}
+
+.alert-enter {
+  transform: translateY(-300%);
+}
+.alert-enter-active {
+  transform: translateY(0);
+  transition: transform 500ms linear 1000ms;
+}
+.alert-exit {
+  transform: translateY(0);
+}
+.alert-exit-active {
+  transform: translateY(-300%);
+  transition: transform 500ms linear 1000ms;
+}
+.alert {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  background-color: rgb(245, 86, 86);
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+  justify-content: center;
+  font-size: 18px;
+  padding: 10px;
+}
